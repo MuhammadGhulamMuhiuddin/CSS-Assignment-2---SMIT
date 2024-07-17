@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.product-card {
+    background-color: #d3d3d3;
+    width: 300px;
+    padding: 20px;
+    border: 10px solid transparent;
+    border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAQAAACNiR0NAAAAV0lEQVR42mJ8//7//z8DKhAI7Nhw5bI2H2Zg4KCgCsrKyqCAiMiDk5OTo6CgIUogJu3H///4ygcFBQUJkBBsgcIyMDSwU+BgkYGK6Q9iBlRlKUY/ACegWhgAp5QsCwJcO7gAAAAAElFTkSuQmCC') 20 round;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #333;
+    height: 100px;
+    overflow-y: auto;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+}
+
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <img src="./domino-studio-164_6wVEHfI-unsplash.jpg" alt="Premium Widget" class="product-image">
+        <h2 class="product-title">Premium Widget</h2>
+        <p class="product-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p class="product-price">$29.99</p>
+    </div>
+</body>
+</html>
